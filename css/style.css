@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#principal {
+  margin: 20px 0px;
+}
+#principal #principal-uno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  #principal #principal-uno img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#principal #principal-uno img {
+  float: left;
+  border-radius: 5px;
+  border: 1px solid #000;
+  width: 130px;
+  height: 130px;
+}
+#principal #principal-uno h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#principal #principal-uno p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: italic;
+}
+#principal #principal-uno h1, #principal #principal-uno p {
+  text-align: center;
+}
+#principal #principal-dos section {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: justify;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  #principal #principal-dos #perfil {
+    padding: 0px;
+  }
+}
+
+#secundaria .contacto {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#secundaria .contacto ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0px;
+}
+#secundaria .contacto ul li a i {
+  font-size: 1.5rem;
+  color: #000;
+  padding: 5px;
+}
+#secundaria .contacto ul li a i:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0px 0px 10px #A62828;
+  border-radius: 5px;
+}
+
+#terciaria {
+  width: 100%;
+}
+#terciaria section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#terciaria section h2 i {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+#terciaria section h2 .flecha {
+  font-size: 1rem;
+}
+#terciaria section hr:nth-of-type(2) {
+  border-bottom: 2px solid #A62828;
+}
+#terciaria section .row {
+  border-bottom: 1px solid #000;
+  padding: 20px 0px;
+}
+#terciaria section .row:last-child {
+  border-bottom: none;
+}
+#terciaria section .row:nth-of-type(1) {
+  padding-top: 0px;
+}
+#terciaria section .row h2, #terciaria section .row h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+#terciaria section .row small {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #555;
+}
+#terciaria section .row .col-md-3 {
+  border-right: 2px solid #A62828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  #terciaria section .row .col-md-3 {
+    border-bottom: 2px solid #A62828;
+    border-right: none;
+  }
+  #terciaria section .row .col-md-3 h2 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  #terciaria section .row .col-md-9 {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
