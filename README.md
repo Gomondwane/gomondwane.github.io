@@ -11,4 +11,5 @@ Ticmas Academy</a> correspondiente a la primera etapa de <a href="https://www.ar
 ### Notas
 1. El link al repositorio está en el apartado donde se encuentran los iconos.
 2. No comprendo realmente cuales serían las palabras en inglés que no aportan, las que estan hacen referencia a las funcionabilidades que brinda Bootstrap y los iconos que este nos provee.
-3. No considero que se necesite incorporar botones ni imagenes por el momento, excepto la foto de perfil, ya se que busca simplicidad sobre todo si tenemos en cuenta lo muy, muy básico dado a lo largo del curso.
+4. También no era obligatorio la incorporación de información personal, por lo tanto se uso el texto de prueba 'Lorem ipsum.'
+4. No considero que se necesite incorporar botones ni imagenes por el momento, excepto la foto de perfil, ya se que busca simplicidad sobre todo si tenemos en cuenta lo muy, muy básico dado a lo largo del curso.
